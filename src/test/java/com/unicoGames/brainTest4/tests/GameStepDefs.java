@@ -18,7 +18,7 @@ import java.util.List;
 import static com.unicoGames.brainTest4.utilities.DriverManager.appiumDriver;
 
 
-public class GameStepDefs {
+public class GameStepDefs extends TestBase {
 
     private static Logger LOG = LogManager.getLogger("GameStepDefs.class");
     AllPages allPages =new AllPages();
